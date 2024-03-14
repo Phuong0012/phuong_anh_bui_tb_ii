@@ -439,8 +439,8 @@ def animedoro_tech():
     animedoro_label = tk.Label(new_window, text="Animedoro running...", fg="blue", bg="black", font="arial 20 bold")
     animedoro_label.place(x=50, y=45)
     timer()
-    Work_Timer(0, 0, 4)
-    Break_Timer(0, 0, 4)
+    Work_Timer(0, 40, 0)
+    Break_Timer(0, 20, 0)
 
 
 def custom_tech2():
